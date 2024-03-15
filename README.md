@@ -44,7 +44,7 @@ pip install xboc
 The default usage is to just fit the model to a corpus. The **boc_matrix** then contains the document embeddings of each document.
 
 ```python
-boc_model = BOCModel(
+boc_model = XBOCModel(
     docs_train,
     word_vectors,
     idx2word,
@@ -55,7 +55,7 @@ boc_matrix, word2concept_list, idx2word_converter = boc_model.fit()
 ## Automatic Concept Labeling
 
 ```python
-boc_model = BOCModel(
+boc_model = XBOCModel(
     docs_train,
     word_vectors,
     idx2word, 

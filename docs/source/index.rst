@@ -15,7 +15,6 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
 
 Contents
@@ -24,3 +23,4 @@ Contents
 .. toctree::
 
    usage
+   xboc

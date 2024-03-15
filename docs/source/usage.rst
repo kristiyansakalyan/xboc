@@ -18,7 +18,7 @@ The default usage is to just fit the model to a corpus. The **boc_matrix** then 
 
 .. code-block:: python
     
-    boc_model = BOCModel(
+    boc_model = XBOCModel(
         docs_train,
         word_vectors,
         idx2word,
@@ -30,7 +30,7 @@ Training with automatic concept labeling
 
 .. code-block:: python
     
-    boc_model = BOCModel(
+    boc_model = XBOCModel(
         docs_train,
         word_vectors,
         idx2word, 
@@ -43,9 +43,4 @@ Training with automatic concept labeling
 
 Further usage examples
 ----------------------
-
-For more details on how to use the BoC model, please take a look at [the DEMO notebook.](notebooks/DEMO-Notebook.ipynb).
-
-you can use the ``xboc.BOCModel()`` function:
-
-.. autofunction:: xboc.BOCModel()
+For more details on how to use the BoC model, please take a look at `the DEMO notebook. <https://github.com/kristiyansakalyan/xboc/blob/dev/notebooks/DEMO-Notebook.ipynb>`_.
