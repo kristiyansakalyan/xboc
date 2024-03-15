@@ -1,4 +1,3 @@
-
 # Bag-Of-Concepts (BOC) Implementation
 
 The Bag-Of-Concepts (BOC) implementation is an advanced text processing module designed to enhance document embedding techniques by adding explainability. 
