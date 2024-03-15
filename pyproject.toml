@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "boc"
+name = "xboc"
 version = "0.1.0"
 description = "Bag-Of-Concepts implementation with automatic concept labelling using a LLM pipeline."
-authors = ["TUM"]
+authors = ["Kristiyan Sakalyan <kristiyan.sakalyan@tum.de>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
