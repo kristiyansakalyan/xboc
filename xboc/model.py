@@ -26,12 +26,12 @@ from sklearn.utils.extmath import safe_sparse_dot
 from soyclustering import SphericalKMeans
 from typing_extensions import Self
 
-from boc.boc_prompts import get_labeling_config
-from boc.types import ClusteringMethod, LabelingImplementation, LLMModel, Tokenizer
-from boc.utils import setup_logging
+from xboc.prompts import get_labeling_config
+from xboc.types import ClusteringMethod, LabelingImplementation, LLMModel, Tokenizer
+from xboc.utils import setup_logging
 
 
-class BOCModel:
+class XBOCModel:
     """
     A Bag-Of-Concepts model that is implemented following the original paper:
     https://www.sciencedirect.com/science/article/abs/pii/S0925231217308962
@@ -325,7 +325,7 @@ class BOCModel:
         return self.concept_labels[index]
 
     @classmethod
-    def load(cls: Type[Self], file_path: str) -> "BOCModel":
+    def load(cls: Type[Self], file_path: str) -> "XBOCModel":
         """Loads the model using pickle.
 
         Parameters
@@ -334,7 +334,7 @@ class BOCModel:
             The path to the file.
         """
         with open(file_path, "rb") as file:
-            model: BOCModel = pickle.load(file)
+            model: XBOCModel = pickle.load(file)
 
         return model
 
@@ -385,7 +385,7 @@ class BOCModel:
         cal_arr = []
 
         for n in k_range:
-            _, y_pred = BOCModel.fit_predict_clustering_method(
+            _, y_pred = XBOCModel.fit_predict_clustering_method(
                 wv, n, clustering_method, max_iter, verbose, random_state
             )
 
@@ -518,7 +518,7 @@ class BOCModel:
             )
 
         sM = scipy.sparse.csr_matrix(wv)
-        cluster_model, self.wv_cluster_id = BOCModel.fit_predict_clustering_method(
+        cluster_model, self.wv_cluster_id = XBOCModel.fit_predict_clustering_method(
             wv,
             num_concept,
             self.clustering_method,

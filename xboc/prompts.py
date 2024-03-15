@@ -6,7 +6,7 @@ from langchain.prompts import ChatPromptTemplate
 from langchain_core.language_models import BaseChatModel
 from langchain_openai.chat_models import ChatOpenAI
 
-from boc.types import LLMModel
+from xboc.types import LLMModel
 
 
 class UniversalPrompt(ABC):
