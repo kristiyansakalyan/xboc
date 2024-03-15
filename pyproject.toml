@@ -43,13 +43,3 @@ python-dotenv = "^1.0.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-
-# Kristiyan:
-# - create a readthedocs webgpage
-# - migrate to github
-# - export notebook as markdown and add it to README.md
-# Ahmed:
-# - review the github repo
-# Johann:
-# - what are the requirements for JOSS for testing
