@@ -1,6 +1,6 @@
-# Bag-Of-Concepts (BOC) Implementation
+# Explainable Bag-Of-Concepts (XBOC) Implementation
 
-The Bag-Of-Concepts (BOC) implementation is an advanced text processing module designed to enhance document embedding techniques by adding explainability. 
+The Explainable Bag-Of-Concepts (BOC) implementation is an advanced text processing module designed to enhance document embedding techniques by adding explainability. 
 
 ## In comparsion to BERTopic
 - c-CF-IDF normalization
@@ -33,7 +33,7 @@ This project implements a flexible BoC module with automatic concept labelling u
 
 ## Installation
 
-To use the BOC implementation, ensure that you have Python 3.6 or newer installed. You can install the module and its dependencies via pip:
+To use the XBOC implementation, ensure that you have Python 3.6 or newer installed. You can install the module and its dependencies via pip:
 
 ```bash
 pip install xboc
