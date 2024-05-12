@@ -2,10 +2,10 @@
 title: 'XBOC: Explainable Bag-Of-Concepts'
 tags:
   - Python
-  - xai
-  - nlp
-  - ml
+  - natural language processing
+  - document classification
   - document embeddings
+  - explainable AI
   - bag-of-concepts
 authors:
   - name: Kristiyan Sakalyan
