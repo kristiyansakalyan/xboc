@@ -102,7 +102,6 @@ This project implements a flexible BoC module with automatic concept labelling u
 - Flexible Clustering
   - Spheircal KMeans (default one; used in the BoC paper)
   - KMeans
-  - Agglomerative Clustering
   - Spectral
 - Ability to encode new documents
 - Ability to save and load the model
