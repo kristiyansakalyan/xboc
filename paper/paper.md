@@ -24,10 +24,14 @@ date: 08 April 2024
 bibliography: paper.bib
 ---
 
-| Model                | Accuracy (%) | Recall (%) | Precision (%) | F1-Score (%) |
-|----------------------|--------------|------------|---------------|--------------|
-| Logistic Regression  | 95.3         | 95.21      | 95.23         | 95.21        |
-| Random Forest        | 95.5         | 95.31      | 95.37         | 95.32        |
++-----------------------+--------------+------------+---------------+--------------+
+| Model                 | Accuracy (%) | Recall (%) | Precision (%) | F1-Score (%) |
+|                       |              |            |               |              |
++:=====================:+:============:+:==========:+:=============:+:============:+
+| Logistic Regression   | 95.3         | 95.21      | 95.23         | 95.21        |
++-----------------------+--------------+------------+---------------+--------------+
+| Random Forest         | 95.5         | 95.31      | 95.37         | 95.32        |
++-----------------------+--------------+------------+---------------+--------------+
 **Table 1:** Performance metrics for Logistic Regression and Random Forest models using explainable document embeddings. Results reflect the models' ability to accurately classify documents in the test set. \label{table:results}
 
 # Summary
