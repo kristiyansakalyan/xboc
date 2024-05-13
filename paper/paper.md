@@ -74,11 +74,7 @@ Our model could be particularly useful in fields where decision-making transpare
 Additionally, businesses could apply our model to analyze customer feedback, categorizing and understanding underlying sentiments transparently to enhance customer service. Policymakers and public administrators can benefit from our approach when interpreting public policy documents, ensuring policy decisions are informed and transparently derived. In academia, the model can support the categorization and peer review of research papers and grant applications, making funding and publication decisions clear and justifiable.
 
 # Example usage and experimental evaluation
-The code repository of this paper contains an example for classification of news reports of the BBC News dataset [@BBC-News]. The newspaper articles are assigned to a given category by a classifier. Experiments show the accuracies shown in \autoref{table:results} 1. The notebooks also depict the SHAP values [@SHAP] and explain which topics are related to which newspaper categories. This can be used to understand how topics are inter-related amongst each other.
-
-# Key References
-- BOC
-- BERTopic
+The code repository of this paper contains an example for classification of news reports of the BBC News dataset [@BBC-News]. The newspaper articles are assigned to a given category by a classifier. Experiments results are shown in \autoref{table:results} 1. The notebooks also depict the SHAP values [@SHAP] and explain which topics are related to which newspaper categories. This can be used to understand how topics are inter-related amongst each other.
 
 # Acknowledgements
 Special thanks to the contributors and colleagues from the Technical University of Munich (TUM) who provided insights and expertise that greatly assisted the research.
