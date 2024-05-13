@@ -28,7 +28,7 @@ bibliography: paper.bib
 |----------------------|--------------|------------|---------------|--------------|
 | Logistic Regression  | 95.3         | 95.21      | 95.23         | 95.21        |
 | Random Forest        | 95.5         | 95.31      | 95.37         | 95.32        |
-**Table 1:** Performance metrics for Logistic Regression and Random Forest models using explainable document embeddings. Results reflect the models' ability to accurately classify documents in the test set.[]{label="results-table"}
+![**Table 1:** Performance metrics for Logistic Regression and Random Forest models using explainable document embeddings. Results reflect the models' ability to accurately classify documents in the test set. \label{table:results}]
 
 # Summary
 This paper introduces a novel approach to generating explainable document embeddings. It leverages enhanced Bag-of-Concepts methodology with a focus on transparency, allowing for clear insight into machine learning decision-making processes. This model not only maintains high accuracy and efficiency but also improves interpretability, making it suitable for applications requiring high levels of trust and accountability, such as legal or medical document analysis.
@@ -70,7 +70,7 @@ Our model could be particularly useful in fields where decision-making transpare
 Additionally, businesses could apply our model to analyze customer feedback, categorizing and understanding underlying sentiments transparently to enhance customer service. Policymakers and public administrators can benefit from our approach when interpreting public policy documents, ensuring policy decisions are informed and transparently derived. In academia, the model can support the categorization and peer review of research papers and grant applications, making funding and publication decisions clear and justifiable.
 
 # Example usage and experimental evaluation
-The code repository of this paper contains an example for classification of news reports of the BBC News dataset. The newspaper articles are assigned to a given category by a classifier. Experiments show the accuracies shown in Table \ref{results-table}. The notebooks also depict the SHAP values and explain which topics are related to which newspaper categories. This can be used to understand how topics are inter-related amongst each other.
+The code repository of this paper contains an example for classification of news reports of the BBC News dataset. The newspaper articles are assigned to a given category by a classifier. Experiments show the accuracies shown in Table \autoref{table:results}. The notebooks also depict the SHAP values and explain which topics are related to which newspaper categories. This can be used to understand how topics are inter-related amongst each other.
 
 # Key References
 - BOC
