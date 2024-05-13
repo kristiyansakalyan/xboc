@@ -43,7 +43,7 @@ boc_matrix, word2concept_list, idx2word_converter = boc_model.fit()
 
 ## Further usage
 
-For more details on how to use the BoC model, please take a look at [the DEMO notebook.](notebooks/DEMO-Notebook.ipynb).
+For more details on how to use the BoC model, please take a look at [the DEMO notebook.](https://github.com/kristiyansakalyan/xboc/blob/main/notebooks/DEMO-Notebook.ipynb).
 
 # Explainability with SHAP values
 
